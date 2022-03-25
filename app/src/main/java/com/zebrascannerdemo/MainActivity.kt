@@ -19,13 +19,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        runOnUiThread {
-            val intent = Intent(this, SecondActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
-//        setUi()
-//        initialize()
+        setUi()
+        initialize()
     }
 
     private fun setUi() {
