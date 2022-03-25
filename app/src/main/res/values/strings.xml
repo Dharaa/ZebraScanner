@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZebraScannerDemo</string>
+    <string name="scan_here">Scan Here</string>
+    <string name="welcome">WelCome!!</string>
+</resources>
