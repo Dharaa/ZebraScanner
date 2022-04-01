@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+  <characteristic type="ProfileInfo">
+    <parm name="created_wizard_version" value="9.1.0"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="EMDKProfile"/>
+    <parm name="ModifiedDate" value="2022-03-29 14:37:38"/>
+    <parm name="TargetSystemVersion" value="10.3"/>
+    <characteristic type="Intent" version="6.3">
+      <parm name="emdk_name" value=""/>
+      <parm name="intent_output_enabled" value="true"/>
+      <parm name="intent_action" value=""/>
+      <parm name="intent_category" value=""/>
+      <parm name="intent_delivery" value="0"/>
+      <parm name="intent_flag_receiver_foreground" value="true"/>
+      <characteristic type="BasicDataFormatting">
+        <parm name="bdf_enabled" value="true"/>
+        <parm name="bdf_prefix" value=""/>
+        <parm name="bdf_suffix" value=""/>
+        <parm name="bdf_send_data" value="true"/>
+        <parm name="bdf_send_hex" value="Default"/>
+        <parm name="bdf_send_tab" value="Default"/>
+        <parm name="bdf_send_enter" value="Default"/>
+      </characteristic>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
