@@ -86,7 +86,6 @@ class MainActivity : AppCompatActivity() {
         GlobalScope.launch {
             ScannerInitializer.getInstance().disableScanning(ZebraUtils.getScannerID())
         }
-
         ScannerInitializer.getInstance().disconnect(ZebraUtils.getScannerID())
         ZebraUtils.setScannerID(-1)
     }
